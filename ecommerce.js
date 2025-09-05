@@ -20,6 +20,7 @@ menu.addEventListener("click", () => {
     nav.style.display = "flex";
     nav.style.flexDirection = "column";
     header.classList.add("extend");
+    nav.style.height=" auto";
   } else {
     navLogin.style.display = "none";
     navSearch.style.display = "none";
